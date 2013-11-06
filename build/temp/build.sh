@@ -8,6 +8,7 @@ function buildCssTricksExtension {
     mkdir ./public/app;
     cp -R ./src/images ./public/images
     cp -R ./src/app/templates ./public/app/templates;
+    cp -R ./src/bg ./public/bg;
 
     # Compile requirejs
     echo "Compiling requirejs...";
