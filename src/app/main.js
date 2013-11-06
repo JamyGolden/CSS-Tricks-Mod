@@ -1,15 +1,11 @@
 require([
-    'app',
-    'router'
+    'app'
 ],
 
-function(app, Router, PodViewNav) {
+function(app) {
 
-    app.router = new Router();
 
-    app.router.on('route:index', function(actions) {
-        var podNavView = new PodViewNav();
-    });
+
 
     Backbone.history.start({ root: app.root });
 
