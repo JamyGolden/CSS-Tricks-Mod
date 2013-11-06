@@ -1,6 +1,6 @@
 ({
 	baseUrl: '../../src/app/',
-	name: 'config',
+	name: '../../src/js/vendor/almond',
 	deps: ['main'],
 	mainConfigFile: '../../src/app/config.js',
 	optimize: 'uglify2',

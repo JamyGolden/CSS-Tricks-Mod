@@ -4,9 +4,6 @@ require([
 
 function(app) {
 
-
-
-
-    Backbone.history.start({ root: app.root });
+    console.log('A log from main.js');
 
 });
